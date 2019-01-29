@@ -1,0 +1,2 @@
+int x = 4;
+printf(3+3*x);
