@@ -1,0 +1,8 @@
+ Static linking 
+
+1. gcc -c add.c
+2. gcc -c sub.c
+3. gcc -I . demo.c
+4. ar rs lilolmath.a add.o sub.o
+5. gcc -o addDemo addDemo.o liblolmath.a
+6. gcc -o demo demo.o lilolmath.a
